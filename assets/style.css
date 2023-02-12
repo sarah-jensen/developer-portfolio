@@ -1,31 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 2%;  
-    background: var(--body-background);
-    color: var(--body-text);
+    line-height: 125%;
+    margin: 0;  
 }
 
 h1 {
-
+    font-size: 350%;
+    color: var(--body-text);
 }
 
 h2 {
-
+    font-size: 150%;
 }
 
 /* My name and nav links */
 header {
-
+    background: var(--body-background);
 }
+
 /* use media queries to make responsive layout */
-nav {
+/* nav section*/
 
+.mestuff {
+    color: var(--section-text);
+    background: var(--section-background);
 }
 
-section {
-
+.work {
+    background: var(--work-section);
 }
-
 footer {
-
+    background: var(--body-background);
+    color: var(--body-text);
 }
