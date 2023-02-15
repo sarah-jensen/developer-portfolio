@@ -56,7 +56,7 @@ aside {
     text-align: center;
     background: var(--workback);
     color: var(--worktext);
-
+/* boxes with work samples go in this section */
 }
 section .work {
     display: flex;
