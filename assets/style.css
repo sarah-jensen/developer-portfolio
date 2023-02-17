@@ -49,18 +49,37 @@ aside {
     background: var(--asideback);
     color: var(--asidetext);
 }
-
+/* flexbox for work samples */
 .work {
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-    background: var(--workback);
-    color: var(--worktext);
-/* boxes with work samples go in this section */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    /* Centers along the main axis determined by flex-direction */
+  justify-content: right;
+    /* Centers along the opposite axis */
+  align-items: center;
+  width: 90%;
+    /* Uses the height of the viewport */
+  height: 100vh;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 2px;
 }
-section .work {
-    display: flex;
-    justify-content: space-between;
+
+.card {
     padding: 10px;
-    
-}
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .card header {
+    padding: 10px;
+    background: #038793;
+    color: #ead701;
+  }
+  
+  .card img {
+    width: 100%;
+  }
