@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/color.css">
     <link rel="stylesheet" href="./assets/style.css">
+    <!--Instagram logo attributed to: <a href="https://www.vecteezy.com/free-vector/instagram">Instagram Vectors by Vecteezy</a> -->
+    <!-- Facebook logo attributed to: <a href="https://www.vecteezy.com/free-vector/facebook-logo-transparent">Facebook Logo Transparent Vectors by Vecteezy</a> -->
+    <!-- Gmail logo attributed to: <a href="https://www.vecteezy.com/free-vector/gmail-icon">Gmail Icon Vectors by Vecteezy</a> -->
     <title>Sarah Jensen</title>
 </head>
 
 <body>
     <header>
         <h1>Sarah Jensen</h1>
+
+        <br/>
         <!-- Navbar -->
         <nav>
             <ul>
@@ -26,24 +31,47 @@
     </header>    
 
     <main>
+
         <aside>
-            <section>
+            <article class="about-me">
                 <h2>About me</h2>
                 <!-- insert recent photo here -->
-                <p>Stuff and things</p>
-            </section> 
+                <p>Fan of books, Balboa, and geekery. Speech-Language Pathologist, single, mom and companion to dignified doggo. Magpie of hobbies and pasttimes. Direct and transparent communication is my life's work. That and pursuing the perfect bowl of popcorn.</p>
+            </article> 
             
-            <footer>
+            <br/>
+
+            <article class="contact-me">
                 <h2>Contact me</h2>
                 <ul>
-                    <li>email</li>
-                    <li>website</li>
-                    <li>socials</li>
+                    <li>
+                        <img class="logo" src="./images/gmail-logo.jpg"
+                            alt="Gmail logo"/>
+                        <a id="email" href="#">sarah.n.jensen@gmail.com</a>
+                    </li>
+                    <li>
+                        <img class=logo src="./images/insta-logo.jpg"
+                            alt="Instagram logo"/>
+                        <a href="#">@speak_up_la</a> 
+                    </li>
+                    <li>
+                        <img class=logo src="./images/facebook-logo.jpg"
+                            alt="Facebook logo"/>
+                        <a href="https://www.facebook.com/sjensen10">Sarah Jensen</a>
+                    </li>
                 </ul>
-            </footer> 
+            </article> 
         </aside>
-    
+    <!-- moved to it's own article to try to achieve desired alignment/relative position to other images -->
+        <section class="card" id="hero">
+            <header>Dancing</header>
+            <img src="./images/ballroom.jpg" 
+                alt="description"/>
+        </section>
+
         <section class="work">
+            
+
             <div class="card">
                 <header>Dancefloor</header>
                 <img src="./images/Dancefloor.jpg"
@@ -68,11 +96,6 @@
                     alt="description"/>
             </div>
 
-            <div class="card">
-                <header>Dancing</header>
-                <img src="./images/ballroom.jpg" 
-                    alt="description"/>
-            </div>
             
             <div class="card">
                 <header>Tea</header>
