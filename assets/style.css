@@ -1,5 +1,5 @@
 * {
-  /* box-sizing: border-box; */
+  box-sizing: content-box;
 }
 
 body {
@@ -55,14 +55,14 @@ aside {
   width: 200px;
 }
 
-.about-me {
+#about-me {
   padding: 20px;
   height: 450px;
   background-color: var(--asideback);
   color: var(--asidetext);
 }
 
-.contact-me {
+#contact-me {
   padding: 20px;
   height: 100px;
   background-color: var(--asideback);
@@ -87,7 +87,7 @@ aside {
   width: 15px;
 }
 
-.work {
+#work {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
