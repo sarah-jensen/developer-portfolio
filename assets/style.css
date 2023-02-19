@@ -105,39 +105,43 @@ aside {
   /* height: 50%; */
   text-align: center;
   border-style: solid;
-  border-width: 3px;
+  border-width: 5px;
   border-color: var(--bordercolor);
 }
 
 #wrap-cards {
+  display:flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
   width: 25%;
-  border-style: solid;
-  border-width: 3px;
-  border-color: var(--bordercolor);
 }
 
 #row {
   display: flex;
-  justify-content: space-between;
-  border-style: solid;
-  border-width: 3px;
-  border-color: var(--bordercolor);
+  margin-top: 20px;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .card {
   width: 250px;
-  /* height: 50%  */
   border-style: solid;
   border-width: 1px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--bordercolor);
 }
 
-.card footer {
+.card footer,
+#hero footer {
   padding: 10px;
   background: var(--cardfooter);
   color: var(--cardtext);
   text-align: center;
 }
 
-.card img {
+.card img,
+#hero img {
   width: 100%;
 }
+
