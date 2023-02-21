@@ -43,6 +43,7 @@ main {
   /* flex-wrap: wrap; */
 }
 
+/* contains "about me" and "contact" sections */
 aside {
   display: flex;
   flex-direction: column;
@@ -81,11 +82,12 @@ aside {
   padding-bottom: 10px;
   line-height: 1.5;
 }
-
+/* social media logos */
 .logo {
   width: 15px;
 }
 
+/* container for placeholder image flexboxes */
 #work {
   display: flex;
   flex-wrap: wrap;
@@ -94,6 +96,7 @@ aside {
   justify-content: space-evenly;
 }
 
+/* the largest placeholder image */
 #hero {
   width: 65%;
   text-align: center;
@@ -102,6 +105,7 @@ aside {
   border-color: var(--bordercolor);
 }
 
+/* flexbox containing the two images to the right of the hero image on the destop site */
 #wrap-cards {
   display:flex;
   flex-wrap: wrap;
@@ -109,6 +113,7 @@ aside {
   width: 25%;
 }
 
+/* flexbox containing images below hero image on desktop site */
 #row {
   display: flex;
   margin-top: 20px;
@@ -137,7 +142,7 @@ aside {
 #hero img {
   width: 100%;
 }
-
+/* breakpoint for tablets */
 @media screen and (max-width: 992px) {
   #work {
     display: flex;
@@ -156,7 +161,7 @@ aside {
     border-color: var(--bordercolor);
   }
 }
-
+/* breakdpoint for large phones */
 @media screen and (max-width: 768px) {
   aside {
     display: flex;
@@ -201,7 +206,7 @@ aside {
   }
   
 }
-
+/* breakpoint for small phones */
 @media screen and (max-width: 576px) {
   .about-me h2,
   .contact-me h2 {
