@@ -13,6 +13,11 @@ N/A
 
 View the webpage to see information about and contact information for the developer as well as placeholder images for future projects. These placeholders will be replaced as projects are developed and deployed.
 
+View the webpage here: https://sarah-jensen.github.io/portfolio/
+
+![The developer portfolio of Sarah Jensen. There are sections containing information about the developer, contact information, and thumbnail images of projects.](./images/portfolio-screenshot.png)
+
+
 ## Credits
 
 Assets and starter code provided by UC Berkeley Extension. 
